@@ -17,10 +17,13 @@ function App() {
     }
   };
   return (
-    <div className={Styles.calculator}>
-      <Display displayVal={calVal} />
-      <ButtonsContainer onButtonClick={onButtonClick} />
-    </div>
+    <center>
+      <div className={Styles.calculator}>
+        <h3>React Calculator App</h3>
+        <Display displayVal={calVal} />
+        <ButtonsContainer onButtonClick={onButtonClick} />
+      </div>
+    </center>
   );
 }
 
